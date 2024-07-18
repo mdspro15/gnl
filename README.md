@@ -6,3 +6,8 @@ This function read specific amount of bytes **cnt** of input into memory area in
 + fd : file descriptor of the file from which data is to be read
 + buf: buffer to read data from
 + cnt: length of the buffer
+
+**Return value**
++ Number of bytes read on success
++ Return 0 when reaching the end of file
++ Return -1 when error occures
